@@ -1,0 +1,12 @@
+.moment_card {
+  background-color: var(--black-secondary);
+  width: fit-content;
+  padding: 1rem;
+  border-radius:0.625em;
+}
+
+.moment_img {
+  width: 13.25rem;
+  height: 18.188rem;
+  border-radius:0.625em;
+}

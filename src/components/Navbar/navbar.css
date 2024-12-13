@@ -1,0 +1,58 @@
+.navbar_container {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--black);
+  color: var(--white);
+  padding: 1rem;
+}
+.lg_view {
+  display: none !important;
+}
+
+.lg_brand input {
+  padding: 0.5rem;
+  border-radius: 1rem;
+  width: 8rem;
+  background-color: var(--black-secondary);
+  border: 1px solid var(--black-secondary);
+}
+
+.lg_brand {
+  gap: 5rem;
+}
+
+.lg_brand p {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.login_action {
+  background-color: var(--white);
+  border: 1px solid;
+  color: var(--black);
+  padding: 0.75rem 2.125rem;
+  border-radius: 6.25rem;
+  cursor: pointer;
+}
+
+@media (min-width: 720px) {
+  .mb_view {
+    display: none;
+  }
+
+  .lg_view {
+    display: flex !important;
+  }
+
+  .brand {
+    width: 6.895rem;
+    height: 2.666rem;
+    margin-left: 2rem;
+  }
+}
+
+@media (min-width: 909px) {
+  .lg_brand input {
+    width: 15rem;
+  }
+}

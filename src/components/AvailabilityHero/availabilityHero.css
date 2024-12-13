@@ -1,0 +1,91 @@
+.availability_main {
+  position: relative;
+  top: -2rem;
+  right: -2rem;
+}
+
+/* Availability styling */
+
+.lg_availability_container {
+  position: sticky;
+
+  top: 0.5rem;
+  right: -1rem;
+  background-color: var(--bg-light-gray);
+  padding: 1.5rem;
+  border-radius: 0.625rem;
+  width: 25rem;
+  border: 1px solid var(--bg-light-gray);
+
+  display: none;
+}
+
+.lg_availability_inner_container .prices {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--text-secondary);
+}
+
+.check_price_container {
+  margin-top: 1rem;
+  background-color: var(--tag-clr);
+  padding: 0.3rem;
+  border-radius: 1.875rem;
+}
+
+.check_price_container div {
+  border: 1px solid var(--golder-clr);
+  background-color: var(--bg-light-gray);
+  border-radius: 1.875rem;
+  padding: 0.2rem;
+}
+
+.check_price_container p {
+  color: var(--golder-clr);
+  margin-left: 1rem;
+}
+
+.check_price_container button {
+  background: linear-gradient(90deg, #a5915f, #d2ba7f, #b49f6b);
+  border: none;
+  padding: 0.4rem;
+  border-radius: 1.875rem;
+  color: var(--black);
+}
+
+/* Date picker */
+.date_picker,
+.guests_input {
+  margin-top: 1rem;
+  border: 1px solid var(--text-secondary);
+  border-radius: 0.25rem;
+  padding: 0.8rem;
+}
+.input {
+  background-color: var(--bg-light-gray);
+  border: none;
+}
+.guests_input input {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+.check_availability_action {
+  background: linear-gradient(90deg, #a5915f, #d2ba7f, #b49f6b);
+  border-radius: 0.25rem;
+  border: none;
+  padding: 1rem;
+  color: var(--black);
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+@media (min-width: 1100px) {
+  .lg_availability_container {
+    display: flex;
+  }
+}
+
+@media (min-width: 1400px) {
+    .availability_main {
+        right: -4rem;
+    }
+}

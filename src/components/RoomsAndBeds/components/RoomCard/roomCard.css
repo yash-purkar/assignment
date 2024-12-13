@@ -1,0 +1,16 @@
+.room_card {
+  width: 14.016rem;
+  /* height: 18.422rem; */
+  background-color: var(--black-secondary);
+  padding: 1rem;
+  border-radius: 0.625em;
+}
+
+.room_card img {
+  width: 12.016rem;
+  height: 8.625rem;
+}
+
+.room_card_info {
+  padding: 1rem;
+}

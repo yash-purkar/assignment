@@ -1,0 +1,67 @@
+.hero_container {
+  position: relative;
+}
+
+.hero_img {
+  height: 20.25rem;
+  width: 100%;
+  opacity: 0.5;
+}
+
+.hero_title {
+  font-size: 2rem;
+  font-family: "Lora", serif;
+  font-weight: normal;
+}
+
+.hero_action {
+  background-color: var(--black);
+  width: 5rem;
+  padding: 0 0.5rem;
+  height: 1rem;
+  margin-top: 0.5rem;
+}
+
+.brand_heading {
+  position: absolute;
+  top: 34%;
+  left: 9%;
+  color: var(--white);
+}
+
+.brand_img_slider {
+  position: absolute;
+  right: 5%;
+  bottom: 10%;
+  border: 1px solid var(--white);
+  border-radius: 0.346rem;
+}
+
+.brand_img_slider img {
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 0.346rem;
+}
+
+.brand_img_slider_inner p {
+  position: absolute;
+  color: var(--white);
+  bottom: 10%;
+  right: 5%;
+  padding: 0.5rem;
+}
+
+
+@media (min-width: 720px) {
+  .hero_img {
+    height: 42rem;
+  }
+  .brand_img_slider img {
+    width: 8.125rem;
+    height: 8.125rem;
+    border-radius: 0.346rem;
+  }
+  .hero_title {
+    font-size: 3.75rem;
+  }
+}

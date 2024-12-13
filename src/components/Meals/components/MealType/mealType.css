@@ -1,0 +1,15 @@
+.meal_type {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.meal_type_inner {
+  width: 50%;
+  background-color: red;
+  height: 50%;
+  border-radius: 50%;
+}
+
+.meals_box {
+  gap: 2rem;
+}

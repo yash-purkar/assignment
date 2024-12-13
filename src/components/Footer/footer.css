@@ -1,0 +1,49 @@
+.footer {
+  background-color: var(--black-action-btn);
+  padding: 1rem;
+}
+
+.footer :where(p) {
+  color: var(--text-secondary);
+}
+
+.footer_social {
+  background-color: var(--footer-bg);
+  padding: 1rem;
+}
+
+.availability_footer {
+  padding: 1rem;
+}
+
+.availability_action {
+  background: linear-gradient(90deg, #a5915f, #d2ba7f, #b49f6b);
+  border-radius: 0.25rem;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  color: var(--black);
+  cursor: pointer;
+}
+
+@media (min-width: 720px) {
+  .footer {
+    flex-direction: row !important;
+    justify-content: space-between;
+  }
+  .footer_section {
+    gap: 1rem !important;
+  }
+}
+
+@media (min-width: 720px) {
+  .availability_footer {
+    display: none !important;
+  }
+  .footer_social_lg {
+    flex-direction: row !important;
+    justify-content: space-between !important;
+  }
+  .footer_logo_mb {
+    display: none !important;
+  }
+}

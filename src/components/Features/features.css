@@ -1,0 +1,14 @@
+.ratings {
+  gap: 0.5rem;
+}
+
+.features_action {
+  width: 2.188rem;
+  height: 2.188rem;
+  background-color: var(--black-action-btn);
+  border: 1px solid var(--black-action-btn);
+  border-radius: 50%;
+}
+
+.features_action .icon {
+}

@@ -1,0 +1,4 @@
+.room_cards_container {
+  overflow-x: auto;
+  scrollbar-width: none;
+}
