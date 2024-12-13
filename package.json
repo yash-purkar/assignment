@@ -20,7 +20,7 @@
     "@types/react-dom": "19.0.0",
     "ajv": "^8.17.1",
     "loader-utils": "3.2.1"
-  },
+  },  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

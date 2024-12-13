@@ -53,6 +53,7 @@
 
 /* Carousel tracker */
 .carousel_tracker {
+  display: none;
   position: absolute;
   left: 50%;
   bottom: 3rem;
@@ -63,6 +64,11 @@
   cursor: pointer;
 }
 
+@media (min-width: 720px) {
+  .carousel_tracker {
+    display: block;
+  }
+}
 @media (min-width: 720px) {
   .hero_img {
     height: 42rem;
