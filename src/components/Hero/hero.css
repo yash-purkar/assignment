@@ -51,6 +51,17 @@
   padding: 0.5rem;
 }
 
+/* Carousel tracker */
+.carousel_tracker {
+  position: absolute;
+  left: 50%;
+  bottom: 3rem;
+}
+
+.carousel_icon {
+  font-size: 2rem;
+  cursor: pointer;
+}
 
 @media (min-width: 720px) {
   .hero_img {
